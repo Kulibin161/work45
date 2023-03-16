@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 49, 65);
+}
+
+h2,
+h1 {
+    font-family: cursive;
+    color: rgb(95, 28, 84);
+    padding: 20px;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.field {
+    background-color: #bddce9;
+}
+
+p {
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+/* header */
+.header {
+    background-color: #7ab1df;
+}
+
+.header_wrap {
+    display: flex;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+/* experience */
+.experience_wrapper {
+    display: flex;
+}
+
+.experience_text {
+    line-height: 22px;
+    padding-right: 65px;
+}
+
+.experience_text2 {
+    padding-left: 160px;
+}
+
+.experience_title {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.ex__head {
+    padding-left: 16px;
+}
+
+/* language */
+.language_item {
+    line-height: 22px;
+    list-style-type: none;
+}
+
+/* form */
+.form {
+    background-color: rgb(175, 226, 241);
+    padding-bottom: 50px;
+}
+
+.form_heading {
+    text-align: center;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    line-height: 22px;
+}
+
+.form_title {
+
+    line-height: 22px;
+
+}
+
+.form_input {
+    border-radius: 5px;
+    width: 366px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+
+.area_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form_textarea {
+    border-radius: 5px;
+    width: 736px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+
+.form_bnt {
+    height: 30px;
+    width: 230px;
+    border: 3px solid rgb(179, 12, 221);
+    border-radius: 30px;
+    background-color: blue;
+    color: rgb(175, 226, 241);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* contacts */
+.contacts_heading {
+    text-align: center;
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.contacts_item {
+    list-style-type: none;
+}
+
+.contacts_link {
+    text-decoration: none;
+}
+
+.contacts_link:hover {
+    opacity: 3.6;
+}
+
+.footer {
+    background-color: #7ab1df;
+}
+
+.footer_text {
+    text-align: center;
+
+}
